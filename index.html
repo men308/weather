@@ -1,0 +1,65 @@
+
+<html>
+
+<head>
+    <title>weather</title>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark py-5"  data-bs-theme="dark">
+        <div class="container">
+          <a class="navbar-brand" href="#home"><img src="images/logo@2x.png"class="logo" alt="" srcset=""> Weather</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown" >
+            <ul class="navbar-nav ms-auto" >
+              <li class="nav-item" id="homes">
+                <a class="nav-link active" aria-current="page" href="# home" >Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">News</a>
+                <div class="line1"></div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#services">Live Camera</a>
+                <div class="line1"></div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#work">Photos</a>
+                <div class="line1"></div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#blog">Contact</a>
+                <div class="line1"></div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+
+    <main>
+      <img src="images/banner.png" alt="" class="overflow-hidden w-100 ">
+        <div class="container">
+            <div class="site-header text-center text-white">
+                
+                <div class="search-bar position-relative w-75 mx-auto mb-5">
+                    <input type="text" class="form-control  text-light" placeholder="Find your location...">
+                    <button class="btn btn-dark position-absolute top-0 end-0 rounded-3">Find</button>
+                </div>
+                <div class="row gy-4" id="container">
+                   
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="js/all.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
