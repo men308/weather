@@ -17,7 +17,7 @@ const displayWeatherData = (array) => {
     let cartona = ``;
     for (let i = 0; i < array.length; i++) {
         const { weekDay, day, month } = getDateDetails(array[i].date);
-        cartona += `<div class="col-md-6 col-lg-4">
+        cartona += `<div class="col-md-12 col-lg-4">
                         <div class="card text-white">
                             <div class="d-flex justify-content-between align-items-center fs-3">
                                 ${i === 0 ? `
